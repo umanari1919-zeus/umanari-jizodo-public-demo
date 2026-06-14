@@ -1,0 +1,20 @@
+{
+  "is_demo": true,
+  "brand": "うまなり地蔵堂",
+  "operator": "うまなり地蔵社中",
+  "ai_platform": "UmanariGenesis",
+  "official_images_included": false,
+  "assets": {
+    "jizo_normal": { "file": null, "fallback": "🙏" },
+    "jizo_guide": { "file": null, "fallback": "案内" },
+    "jizo_axis": { "file": null, "fallback": "◎" },
+    "jizo_gekisou": { "file": null, "fallback": "🔥" },
+    "jizo_warning": { "file": null, "fallback": "⚠" },
+    "jizo_skip": { "file": null, "fallback": "✖" },
+    "jizo_review": { "file": null, "fallback": "回顧" },
+    "jizo_value": { "file": null, "fallback": "宝珠" },
+    "jizodo_crest": { "file": null, "fallback": "馬蹄 × カ × 宝珠" },
+    "jizodo_favicon": { "file": null, "fallback": "地" },
+    "jizodo_ogp": { "file": null, "fallback": "うまなり地蔵堂 Public Demo" }
+  }
+}

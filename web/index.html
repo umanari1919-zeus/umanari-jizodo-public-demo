@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="完全架空データで体験する、うまなり地蔵堂の公開UIデモ。">
+  <title>うまなり地蔵堂 Public Demo</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="crest" aria-label="正式紋画像未配置時の文字による代替表示">
+      馬蹄 × カ × 宝珠
+      <small>文字代替</small>
+    </div>
+    <div>
+      <p class="eyebrow">UmanariGenesis Public Demo</p>
+      <h1>うまなり地蔵堂</h1>
+    </div>
+    <span class="demo-badge">完全架空デモ</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="jizo-frame" aria-label="うまなり地蔵の画像fallback">
+        <span aria-hidden="true">🙏</span>
+        <strong>うまなり地蔵</strong>
+      </div>
+      <div>
+        <p class="hero-copy">競馬の迷い道に、そっと灯るAIのお堂。</p>
+        <p>AI妙味指数で、激走馬と危険人気馬を読み解く。</p>
+        <p class="philosophy">買う勇気も、買わない勇気も。</p>
+      </div>
+    </section>
+
+    <aside class="demo-notice">
+      このPublic Demoは競馬予想サービス本体ではありません。実際の予想提供、馬券購入、投票行動を推奨するものではなく、すべての表示はUI確認用の完全架空情報です。
+    </aside>
+
+    <nav class="tabs" aria-label="デモ画面">
+      <button type="button" class="tab is-active" data-view="oracle">本日のお告げ</button>
+      <button type="button" class="tab" data-view="benefits">ご利益帳</button>
+      <button type="button" class="tab" data-view="mirror">過去走の鏡</button>
+      <button type="button" class="tab" data-view="status">社中稼働状況</button>
+    </nav>
+
+    <section id="view" aria-live="polite">
+      <p class="loading">架空のお告げを読み込んでいます。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>この画面のレース・馬・指数・結果はすべて完全架空です。</p>
+    <p>「馬蹄 × カ × 宝珠」は、正式紋画像未配置時の文字による代替表示です。</p>
+    <p>運営体: うまなり地蔵社中 / 中核AI基盤: UmanariGenesis</p>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

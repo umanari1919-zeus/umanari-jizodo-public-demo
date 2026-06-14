@@ -1,0 +1,112 @@
+{
+  "is_demo": true,
+  "generated_at": "2099-01-01T09:00:00+09:00",
+  "notice": "すべて完全架空のデモ情報です。",
+  "races": [
+    {
+      "is_demo": true,
+      "race_id": "DEMO-TOMYO-01",
+      "venue": "灯明競馬場",
+      "race_number": 1,
+      "race_name": "お堂はじめ特別",
+      "start_time": "10:00",
+      "review": {
+        "summary": "地蔵より: 架空レースのため、結果は未取得として扱います。",
+        "next_note": "次回改善メモ: 表示の読みやすさを確かめます。"
+      },
+      "entries": [
+        {
+          "horse_number": 1,
+          "horse_name": "ソットトモル",
+          "role": "axis",
+          "role_label": "◎ 軸馬",
+          "ai_value_score": 82,
+          "ai_value_source": "AI推定",
+          "value_reason": "流れへの適応と安定感を評価した架空の根拠です。",
+          "past_runs": ["灯明の道・人気2番手・3着・着差未取得", "宝珠の丘・人気3番手・2着・着差未取得"],
+          "jizo_comment": "地蔵より: 落ち着いた運びを軸に据えます。"
+        },
+        {
+          "horse_number": 2,
+          "horse_name": "マヨイミチ",
+          "role": "partner",
+          "role_label": "○ 相手馬",
+          "ai_value_score": 70,
+          "ai_value_source": "AI推定",
+          "value_reason": "相手候補としての安定感を評価した架空の根拠です。",
+          "past_runs": ["宝珠の丘・人気4番手・4着・着差未取得", "灯明の道・人気5番手・3着・着差未取得"],
+          "jizo_comment": "地蔵より: 相手として静かに見守ります。"
+        },
+        {
+          "horse_number": 3,
+          "horse_name": "ヒロウマナビ",
+          "role": "gekisou",
+          "role_label": "🔥 激走馬",
+          "ai_value_score": 88,
+          "ai_value_source": "AI推定",
+          "value_reason": "変わり身の兆しを評価した架空の根拠です。",
+          "past_runs": ["迷い坂・人気8番手・6着・着差未取得", "灯明の道・人気7番手・5着・着差未取得"],
+          "jizo_comment": "地蔵より: 変わり身の灯が見えます。"
+        },
+        {
+          "horse_number": 4,
+          "horse_name": "カワナイユウキ",
+          "role": "danger",
+          "role_label": "⚠ 危険人気馬",
+          "ai_value_score": 38,
+          "ai_value_source": "AI推定",
+          "value_reason": "人気過熱・妙味不足・中心視控えめという架空の判断です。",
+          "past_runs": ["宝珠の丘・人気1番手・1着・着差未取得", "迷い坂・人気1番手・2着・着差未取得"],
+          "jizo_comment": "地蔵より: 人気ほどの妙味は見込みにくそうです。"
+        },
+        {
+          "horse_number": 5,
+          "horse_name": "ツギノザイリョウ",
+          "role": "skip",
+          "role_label": "✖ 見送り馬",
+          "ai_value_score": 24,
+          "ai_value_source": "AI推定",
+          "value_reason": "今日は無理に買わない・次に買える材料待ちという架空の判断です。",
+          "past_runs": ["迷い坂・人気6番手・7着・着差未取得", "宝珠の丘・人気5番手・6着・着差未取得"],
+          "jizo_comment": "地蔵より: 今日は見送り、次の材料を待ちます。"
+        }
+      ]
+    },
+    {
+      "is_demo": true,
+      "race_id": "DEMO-HOJU-02",
+      "venue": "宝珠競馬場",
+      "race_number": 2,
+      "race_name": "そっと灯る賞",
+      "start_time": "10:35",
+      "review": {
+        "summary": "地蔵より: 完全架空デモのため、的中・不的中は判定しません。",
+        "next_note": "次回改善メモ: モバイルでの視認性を確かめます。"
+      },
+      "entries": [
+        {
+          "horse_number": 1,
+          "horse_name": "ホウジュノヒカリ",
+          "role": "axis",
+          "role_label": "◎ 軸馬",
+          "ai_value_score": 79,
+          "ai_value_source": "AI推定",
+          "value_reason": "安定した歩みを評価した架空の根拠です。",
+          "past_runs": ["灯明の道・人気3番手・2着・着差未取得", "迷い坂・人気2番手・3着・着差未取得"],
+          "jizo_comment": "地蔵より: 静かな強みを軸にします。"
+        },
+        {
+          "horse_number": 2,
+          "horse_name": "マタチョウセン",
+          "role": "gekisou",
+          "role_label": "🔥 激走馬",
+          "ai_value_score": 86,
+          "ai_value_source": "AI推定",
+          "value_reason": "再挑戦の兆しを評価した架空の根拠です。",
+          "past_runs": ["宝珠の丘・人気9番手・5着・着差未取得", "迷い坂・人気8番手・4着・着差未取得"],
+          "jizo_comment": "地蔵より: また挑む灯を拾います。"
+        }
+      ]
+    }
+  ]
+}
